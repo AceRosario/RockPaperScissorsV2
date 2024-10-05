@@ -1,0 +1,21 @@
+#title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.Title-Container h3{
+    text-align: center;
+}
+
+.input{
+display: flex;
+justify-content: center;
+}
+
+#textOutput{
+    text-align: center;
+}
+
+#cpuOutput{
+    text-align:center;
+}
