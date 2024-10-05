@@ -1,4 +1,10 @@
+body *{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 #title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     text-align: center;
 }
@@ -7,13 +13,17 @@
     text-align: center;
 }
 
+
 .input{
+margin-top: 50px;
 display: flex;
 justify-content: center;
 }
 
+
 #textOutput{
     text-align: center;
+    margin-top: 50px;
 }
 
 #cpuOutput{
