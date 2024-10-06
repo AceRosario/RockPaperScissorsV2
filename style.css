@@ -1,6 +1,6 @@
-body *{
+ *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    background-color: lightblue
 }
 
 #title{
@@ -20,13 +20,30 @@ display: flex;
 justify-content: center;
 }
 
-.CPU{
+.output{
+    
+    margin-top: 50px;
     text-align: center;
 }
 
-#textOutput{
+.button-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#textButton{
+    background: black;
+    color: white;
+    border:none;
+    padding: 10px 20px;
     text-align: center;
-    margin-top: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:16px;
+    
 }
 
 
