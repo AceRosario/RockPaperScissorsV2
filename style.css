@@ -20,12 +20,13 @@ display: flex;
 justify-content: center;
 }
 
+.CPU{
+    text-align: center;
+}
 
 #textOutput{
     text-align: center;
     margin-top: 50px;
 }
 
-#cpuOutput{
-    text-align:center;
-}
+

@@ -33,9 +33,24 @@ function getComputerChoice() {
     }
 }
 
+function determineWinner(humanSelection, cpuSelection) {
+    if (humanSelection === cpuSelection) {
+        document.getElementById("winOutput").innerHTML = "It's a tie?!"
+    } else if (
+        (humanSelection === 0 && cpuSelection === 2) ||  
+        (humanSelection === 1 && cpuSelection === 0) ||  
+        (humanSelection === 2 && cpuSelection === 1)     
+    ) {
+       document.getElementById("winOutput").innerHTML = "You won!"
+    } else {
+        document.getElementById("winOutput").innerHTML = "You lost to a CPU.."
+    }
+}
+
 function playGame(){
     let human = getHumanChoice();
     if(human !== null){
-        getComputerChoice();
+        let cpu = getComputerChoice();
+        determineWinner(human,cpu);
     }
 }
